@@ -1,0 +1,13 @@
+cp
+tmp
+temp
+
+# Executables
+*.out
+
+# Hide all hidden files
+.*
+!/.gitignore
+
+# Exclude CP-test
+CP-test
