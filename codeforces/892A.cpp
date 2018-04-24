@@ -13,11 +13,11 @@ int main() {
     for (int j = 0; j < n; ++j) {
         cin>>tmp;
         if(tmp >= fmax){
-        	smax = fmax;
+            smax = fmax;
             fmax = tmp;
         }
         else if(tmp >= smax){
-        	smax = tmp;
+            smax = tmp;
         }
     }
     if (fmax + smax >= sum){

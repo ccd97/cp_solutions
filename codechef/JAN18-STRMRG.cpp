@@ -36,6 +36,3 @@ int main(int argc, char const *argv[]) {
     }
     return 0;
 }
-
-// 1 9 9 vhovvpfqy mvbsbfnaq
-// ans - 14

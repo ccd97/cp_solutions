@@ -13,29 +13,29 @@ long long st[2*N];
 long long st2[2*N];
 
 void modify(int n, int l, int r, long long value) {
-  for (l += n, r += n; l < r; l >>= 1, r >>= 1) {
-    if (l&1) st[l++] += value;
-    if (r&1) st[--r] += value;
-  }
+    for (l += n, r += n; l < r; l >>= 1, r >>= 1) {
+        if (l&1) st[l++] += value;
+        if (r&1) st[--r] += value;
+    }
 }
 
 void modify2(int n, int l, int r, long long value) {
-  for (l += n, r += n; l < r; l >>= 1, r >>= 1) {
-    if (l&1) st2[l++] += value;
-    if (r&1) st2[--r] += value;
-  }
+    for (l += n, r += n; l < r; l >>= 1, r >>= 1) {
+        if (l&1) st2[l++] += value;
+        if (r&1) st2[--r] += value;
+    }
 }
 
 long long query(int n, int p) {
-  long long res = 0;
-  for (p += n; p > 0; p >>= 1) res += st[p];
-  return res;
+    long long res = 0;
+    for (p += n; p > 0; p >>= 1) res += st[p];
+    return res;
 }
 
 long long query2(int n, int p) {
-  long long res = 0;
-  for (p += n; p > 0; p >>= 1) res += st2[p];
-  return res;
+    long long res = 0;
+    for (p += n; p > 0; p >>= 1) res += st2[p];
+    return res;
 }
 
 int main(int argc, char const *argv[]) {

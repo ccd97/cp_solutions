@@ -19,7 +19,6 @@ std::set<T> getUnion3(const std::set<T>& a, const std::set<T>& b, const std::set
   return result;
 }
 
-
 int main(int argc, char const *argv[]) {
     int n, tmp; cin>>n;
     unordered_map<int, set<int>> m;

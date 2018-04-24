@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
- 
+
 using namespace std;
- 
+
 int main(int argc, char const *argv[]) {
     int t; cin>>t;
     while(t--){
@@ -28,5 +28,3 @@ int main(int argc, char const *argv[]) {
     }
     return 0;
 }
- 
-// 3 3 3 1 2 3 3 4 1 2 3 4 5 4 3 2 7

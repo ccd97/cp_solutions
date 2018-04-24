@@ -7,7 +7,6 @@ struct pld{
     int d;
 };
 
-
 int main(int argc, char const *argv[]) {
     int n, p; cin>>n>>p;
     p--;

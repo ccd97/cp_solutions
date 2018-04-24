@@ -17,7 +17,6 @@ void SieveOfEratosthenes(int n) {
         if (prime[p]) primesv.push_back(p);
 }
 
-
 int main(int argc, char const *argv[]) {
     SieveOfEratosthenes(2e6);
     int t; cin>>t;

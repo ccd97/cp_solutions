@@ -19,5 +19,5 @@ int main(){
             i%2==0?s2+=inp:s1+=inp;
         }
         std::cout << ((s1>s2)?s2:s1) <<std::endl;
-    }    
+    }
 }
