@@ -12,7 +12,7 @@ def spell_3(num):
     if int(num[1:3]) in nmp:
         result += nmp[int(num[1:3])]
     else:
-        result += nmp[int(num[1])*10] + " " + nmp[int(num[2])]        
+        result += nmp[int(num[1])*10] + " " + nmp[int(num[2])]
     return result
 
 t = int(input())

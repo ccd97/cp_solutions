@@ -1,7 +1,7 @@
 tests = int(input())
 for i in range(0,tests):
     number = int(input())-1
-    three = number//3 
+    three = number//3
     five = number//5
     fifteen = number//15
     a = (three*(3+3+(three-1)*3))//2

@@ -68,4 +68,3 @@ for _ in range(t):
         print("impossible")
     else:
         print("".join(res))
-    
