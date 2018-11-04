@@ -1,0 +1,5 @@
+test:
+  stage: test
+  script:
+    - chmod +x testscript.sh
+    - ./testscript.sh

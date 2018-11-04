@@ -8,6 +8,7 @@ temp
 # Hide all hidden files
 .*
 !/.gitignore
+!/.gitlab-ci.yml
 
 # Exclude CP-test
 CP-test
